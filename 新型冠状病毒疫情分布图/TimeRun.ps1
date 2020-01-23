@@ -9,10 +9,10 @@ while(1){
     # F:\Python\Project\新型冠状病毒疫情分布图\疫情分布图.html
     }elseif($(Get-Date -Format 'hhmmss') -eq 000100){
     exit
-    }else{
-    if($(Get-Date -Format 'hhmmss') % 4 -eq 0){ -join("运行中", "--")}
     }
+    # else{
+    # if($(Get-Date -Format 'hhmmss') % 4 -eq 0){ -join("运行中", "--")}
+    # }
     ## 等待3 min
     # sleep $(3 * 60)
-    ##-join("运行中", "--")
 }
